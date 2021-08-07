@@ -6,5 +6,6 @@ resource "aws_instance" "hammer-instance" {
     Name        = var.name
     Environment = var.env
     Provisioner = "Terraform"
+    Auto-Start  = "true"
   }
 }
