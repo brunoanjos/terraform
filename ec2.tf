@@ -1,4 +1,4 @@
-resource "aws_instance" "hammer-instance" {
+resource "aws_instance" "hammer_instance" {
   ami           = var.ami
   instance_type = var.instance_type
 
