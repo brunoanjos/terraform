@@ -22,3 +22,8 @@ variable "instance_type" {
   description = "AWS Instance type defines the hardware configuration of the machine"
   default     = "t2.micro"
 }
+
+variable "nlb_name" {
+  description = "AWS network load balancer name"
+  default     = "hammer-nlb"
+}
